@@ -1,4 +1,4 @@
-# Projeto de Escopo em React
+# Projeto de Checklist em React
 
 Este projeto é uma aplicação React para gerenciar o escopo de um projeto, permitindo adicionar tarefas com detalhes como descrição, responsável, datas de início e término, entre outros.
 
@@ -6,13 +6,8 @@ Este projeto é uma aplicação React para gerenciar o escopo de um projeto, per
 
 ### Cadastro e Edição de Tarefas:
 
-- Tarefa
-- Descrição
-- Responsável
-- Data de Início
-- Data de Término
-- Duração Estimada (dias)
-- Dependências
+- Premissa
+- Está Cumprida?
 - Observações
 
 ### Carregamento de Dados a partir de um Arquivo JSON:
@@ -31,14 +26,14 @@ Permite carregar o escopo previamente salvo em um arquivo JSON para edição ou 
 
 ### Instalação:
 
-1. Clone o repositório: `git clone https://github.com/dav-pr-tech/projeto-escopo`
-2. Navegue até o diretório do projeto: `cd seu-projeto`
+1. Clone o repositório: `git clone https://github.com/dav-pr-tech/projeto-checklist`
+2. Navegue até o diretório do projeto: `cd projeto-checklist`
 3. Instale as dependências: `npm install`
 
 ### Execução:
 
 - Inicie a aplicação: `npm start`
-- Acesse o aplicativo em http://localhost:5000 no seu navegador.
+- Acesse o aplicativo em http://localhost:4001 no seu navegador.
 
 ### Utilização:
 
