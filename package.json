@@ -1,6 +1,6 @@
 {
-  "name": "projeto-escopo",
-  "homepage": "https://dav-pr-tech.github.io/projeto-escopo/",
+  "name": "projeto-checklist",
+  "homepage": "https://dav-pr-tech.github.io/projeto-checklist/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "cross-env PORT=5000 react-scripts start",
+    "start": "cross-env PORT=6000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
