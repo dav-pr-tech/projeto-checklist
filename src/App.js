@@ -1,7 +1,7 @@
 // src/App.js
 import React, { useState } from 'react';
-import FormularioEscopo from './components/FormularioEscopo';
-import TabelaEscopo from './components/TabelaEscopo';
+import FormularioChecklist from './components/FormularioChecklist';
+import TabelaChecklist from './components/TabelaChecklist';
 
 function App() {
     const [escopo, setEscopo] = useState([]);
@@ -40,11 +40,11 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <h1>Projeto de Escopo</h1>
+                <h1>Projeto de checklist</h1>
             </header>
             <main>
-                <FormularioEscopo onAdicionarTarefa={handleAdicionarTarefa} />
-                <TabelaEscopo escopo={escopo} />
+                <FormularioChecklist onAdicionarTarefa={handleAdicionarTarefa} />
+                <TabelaChecklist escopo={escopo} />
                 <div>
                     <button onClick={salvarJSON}>Salvar como JSON</button>
                     <label htmlFor="uploadJson">
